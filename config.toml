@@ -4,5 +4,5 @@ definition = "gdn_prefill_qk4_v8_d128_k_last"          # Track: fused_moe | spar
 author = "Saman Keon"              # Team/author name
 
 [build]
-language = "triton"               # triton | cuda
-entry_point = "kernel.py::tritonGDN"            # Kernel function name
+language = "python"               # triton | cuda
+entry_point = "kernel.py::cuteGDN"            # Kernel function name
